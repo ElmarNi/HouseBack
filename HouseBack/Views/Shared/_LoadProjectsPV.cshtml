@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+@model IEnumerable<Project>
+@for (int i = 0; i < Model.Count(); i++)
+{
+    <div class="row @((i%2==0)?"left mt-5 pt-5":"right mt-5 pt-5")">
+        <div class="col-md-6 col-xl-5 content @((i%2== 1)?"order-1 order-md-2 text-center text-md-left":"text-center text-md-right")">
+            <div class="line mb-3">
+                <div></div>
+            </div>
+            <h2>@Model.ElementAt(i).Name</h2>
+            <p class="section-short-paragraphs">
+                @Model.ElementAt(i).ShortTitle
+            </p>
+            <a asp-controller="projects" asp-action="singleproject" asp-route-id="@Model.ElementAt(i).Id">Learn more</a>
+        </div>
+        <div class="col-md-6 col-xl-7 image p-0 @((i%2== 1)?"order-2 order-md-1":"")">
+            <img src="~/img/@Model.ElementAt(i).MainImageUrl" class="w-100 h-100">
+        </div>
+    </div>
+}

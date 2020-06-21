@@ -1,0 +1,69 @@
+﻿@model Contact
+<style>
+    span {
+        color: #e17070;
+        font-size: 14px;
+        font-weight: bold;
+    }
+</style>
+<section class="page-header-section">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1 class="page-header">CONTACTS</h1>
+                <div class="line mt-3">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact-form" class="pt-0">
+    <div class="container">
+        <div class="row mx-lg-5 px=lg-5">
+            <form class="w-100 d-flex flex-wrap" method="POST">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div class="form-group col-12 mb-5">
+                    <div class="input-wrapper">
+                        <input asp-for="Name" class="form-control custom-input" placeholder="Name">
+                        <div class="bottom-line"></div>
+                    </div>
+                    <span asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group col-12 mb-5">
+                    <div class="input-wrapper">
+                        <input asp-for="Email" class="form-control custom-input" placeholder="Email">
+                        <div class="bottom-line"></div>
+                    </div>
+                    <span asp-validation-for="Email"></span>
+                </div>
+                <div class="form-group col-12 mb-5">
+                    <div class="input-wrapper">
+                        <textarea asp-for="Message" class="form-control custom-input" placeholder="Message"
+                                  cols="30" rows="7"></textarea>
+                        <div class="bottom-line"></div>
+                    </div>
+                    <span asp-validation-for="Message"></span>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="common-btn">
+                        <div class="overlay"></div>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<section id="map" class="py-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d97205.5983028441!2d49.844224!3d40.4160512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d40a035a6bd%3A0xa8c2cbf267a83fbd!2zSGV5ZMmZciDGj2xpeWV2IE3JmXJryZl6aQ!5e0!3m2!1saz!2s!4v1580420769348!5m2!1saz!2s"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

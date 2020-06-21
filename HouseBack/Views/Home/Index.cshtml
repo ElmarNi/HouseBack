@@ -1,0 +1,118 @@
+﻿@model HomeVM
+<section id="banner" style="background-image: url('img/@Model.HomeBanner.ImageUrl');">
+    <div class="text-zone text-center">
+        <h1>House</h1>
+        <h3>See what your design will be like</h3>
+    </div>
+</section>
+<section id="WhatWeDo">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-7 col-md-6 order-2 order-md-1 image p-0">
+                <img src="~/img/@Model.WhatWeDoHome.ImageUrl" class="img-fluid h-100" style="object-fit: cover;">
+            </div>
+            <div class="col-xl-5 col-md-6 order-1 order-md-2 content">
+                <div class="line">
+                    <div></div>
+                </div>
+                <h3 class="section-header mb-0 ">
+                    @Model.WhatWeDoHome.Header
+                </h3>
+                <p class="section-short-paragraphs my-4 mr-lg-5 pr-lg-5">
+                    @Model.WhatWeDoHome.Title
+                </p>
+                <a asp-controller="contact" asp-action="index" class="common-btn">
+                    <div class="overlay"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="numbers" style="background-image: url('img/numbers-bg.png');">
+    <div class="container mt-4">
+        <div class="row mx-lg-5 px-lg-5 mb-4  text-center text-md-left">
+            <div class="col-12">
+                <h2 class="section-header" style="color: white;">Our company in numbers</h2>
+            </div>
+        </div>
+        <div class="row mx-lg-5 px-lg-5 text-center text-lg-left">
+            <div class="col-md-4 d-lg-flex align-items-center">
+                <div class="number">@ViewBag.Projects</div>
+                <div class="text ml-lg-3">Implemented projects</div>
+            </div>
+            <div class="col-md-4 d-lg-flex align-items-center">
+                <div class="number">@ViewBag.Staff</div>
+                <div class="text ml-lg-3">Staff members</div>
+            </div>
+            <div class="col-md-4 d-lg-flex align-items-center">
+                <div class="number">@ViewBag.Age</div>
+                <div class="text ml-lg-3">Years on the market</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <div class="container-fluid">
+        <div class="row mb-md-5 pb-md-5">
+            <div class="col-12 text-center">
+                <h3 class="section-header m-0">
+                    Projects we are proud of
+                </h3>
+            </div>
+        </div>
+        @for (int i = 0; i < Model.Projects.Count(); i++)
+        {
+            <div class="row @((i%2==0)?"left":"right my-md-5 py-md-5")">
+                <div class="col-md-6 col-xl-5 content @((i%2== 1)?"order-1 order-md-2 text-center text-md-left":"text-center text-md-right")">
+                    <div class="line mb-3">
+                        <div></div>
+                    </div>
+                    <h2>@Model.Projects.ElementAt(i).Name</h2>
+                    <p class="section-short-paragraphs">
+                        @Model.Projects.ElementAt(i).ShortTitle
+                    </p>
+                    <a asp-controller="projects" asp-action="singleproject" asp-route-id="@Model.Projects.ElementAt(i).Id">Learn more</a>
+                </div>
+                <div class="col-md-6 col-xl-7 image p-0 @((i%2== 1)?"order-2 order-md-1":"")">
+                    <img src="~/img/@Model.Projects.ElementAt(i).MainImageUrl" class="w-100 h-100">
+                </div>
+            </div>
+        }
+        <div class="row all-projects-button text-center mt-5 pt-md-5">
+            <div class="col-12">
+                <a asp-controller="projects" asp-action="index" class="common-btn">
+                    <div class="overlay"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="achives" style="background-image: url('img/achives.jpg');">
+    <div class="container text-center text-md-left">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="section-header" style="color: white;">Our achievements</h2>
+            </div>
+        </div>
+        @for (int i = 0; i < Model.Awards.Count(); i++)
+        {
+            <div class="row @((i%2==1)?"my-5":"")">
+                <div class="col-md-3 number">
+                    <h2>@Model.Awards.ElementAt(i).Year</h2>
+                </div>
+                <div class="col-md-9 pl-5 text-zone align-self-center">
+                    <h2>@Model.Awards.ElementAt(i).Header</h2>
+                    <p>@Model.Awards.ElementAt(i).Title</p>
+                </div>
+            </div>
+
+        }
+        <div class="row contatc-button mt-5 text-center">
+            <div class="col-12">
+                <a asp-controller="contact" asp-action="index" class="common-btn">
+                    <div class="overlay"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

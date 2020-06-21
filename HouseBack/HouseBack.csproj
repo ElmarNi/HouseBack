@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\**" />
+    <Content Remove="Areas\**" />
+    <EmbeddedResource Remove="Areas\**" />
+    <None Remove="Areas\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200202130620_Added Projects.cs" />
+    <Compile Remove="Migrations\20200202130620_Added Projects.Designer.cs" />
+    <Compile Remove="Migrations\20200202130707_Added Prjects.cs" />
+    <Compile Remove="Migrations\20200202130707_Added Prjects.Designer.cs" />
+    <Compile Remove="Migrations\20200226125202_Added About page datas.cs" />
+    <Compile Remove="Migrations\20200226125202_Added About page datas.Designer.cs" />
+    <Compile Remove="Migrations\20200226125456_AEds.cs" />
+    <Compile Remove="Migrations\20200226125456_AEds.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+  </ItemGroup>
+
+</Project>

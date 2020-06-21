@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.161
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBack", "HouseBack\HouseBack.csproj", "{1D044826-A047-45FB-B9F6-C3D050384AE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D044826-A047-45FB-B9F6-C3D050384AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D044826-A047-45FB-B9F6-C3D050384AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D044826-A047-45FB-B9F6-C3D050384AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D044826-A047-45FB-B9F6-C3D050384AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3094B00-A772-4964-A302-79CC431BEC02}
+	EndGlobalSection
+EndGlobal

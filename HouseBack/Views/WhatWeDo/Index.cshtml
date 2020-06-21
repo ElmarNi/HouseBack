@@ -1,0 +1,55 @@
+﻿@model IEnumerable<WhatWeDo>
+<section class="page-header-section">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1 class="page-header">what we do</h1>
+                <div class="line mt-3">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="WhatWeDoPage" class="p-0">
+    <div class="container">
+        <div class="row left">
+            <div class="col-xl-7 col-md-6 image p-md-0">
+                <img src="img/@Model.ElementAt(0).ImageUrl" style="object-fit: cover;">
+            </div>
+            <div class="col-xl-5 col-md-6 content text-center text-md-left mt-4 mt-md-0">
+                <div class="line mb-3">
+                    <div></div>
+                </div>
+                <h3 class="section-header mb-0 ">
+                    @Model.ElementAt(0).Header
+                </h3>
+                <p class="section-short-paragraphs my-4">
+                    @Model.ElementAt(0).Title
+                </p>
+                <a asp-controller="contact" asp-action="index" class="common-btn">
+                    <div class="overlay"></div>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-5 right">
+            <div class="col-xl-7 col-md-6 image p-md-0 order-md-2">
+                <img src="img/@Model.ElementAt(1).ImageUrl" style="object-fit: cover;">
+            </div>
+            <div class="col-xl-5 col-md-6 content text-center text-md-left mt-4 mt-md-0 order-md-1">
+                <div class="line mb-3">
+                    <div></div>
+                </div>
+                <h3 class="section-header mb-0 ">
+                    @Model.ElementAt(1).Header
+                </h3>
+                <p class="section-short-paragraphs my-4">
+                    @Model.ElementAt(1).Title
+                </p>
+                <a asp-controller="contact" asp-action="index" class="common-btn">
+                    <div class="overlay"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
