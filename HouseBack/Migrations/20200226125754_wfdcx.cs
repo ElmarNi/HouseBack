@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace HouseBack.Migrations
 {
-    public partial class wfdcx : Migration
+    public partial class wFdcx : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

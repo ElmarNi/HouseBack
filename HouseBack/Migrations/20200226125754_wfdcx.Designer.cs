@@ -11,7 +11,7 @@ namespace HouseBack.Migrations
 {
     [DbContext(typeof(HouseDbContext))]
     [Migration("20200226125754_wfdcx")]
-    partial class wfdcx
+    partial class wFdcx
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

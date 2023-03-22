@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\HouseBack\\HouseBack\\HouseBack.csproj": {}
+    "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/HouseBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\HouseBack\\HouseBack\\HouseBack.csproj": {
+    "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/HouseBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\HouseBack\\HouseBack\\HouseBack.csproj",
+        "projectUniqueName": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/HouseBack.csproj",
         "projectName": "HouseBack",
-        "projectPath": "C:\\Users\\User\\Desktop\\HouseBack\\HouseBack\\HouseBack.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\HouseBack\\HouseBack\\obj\\",
+        "projectPath": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/HouseBack.csproj",
+        "packagesPath": "/Users/ibrahimlien/.nuget/packages/",
+        "outputPath": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ibrahimlien/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -39,28 +35,16 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.1.1, )",
-              "autoReferenced": true
+              "version": "[7.0.4, )"
             },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.1.2, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[2.1.10, )"
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
@@ -69,11 +53,20 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

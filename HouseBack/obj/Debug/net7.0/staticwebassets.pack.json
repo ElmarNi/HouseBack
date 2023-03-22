@@ -1,0 +1,161 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/css/galleria.folio.css",
+      "PackagePath": "staticwebassets/css/galleria.folio.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/10.png",
+      "PackagePath": "staticwebassets/img/10.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/11.png",
+      "PackagePath": "staticwebassets/img/11.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/13.png",
+      "PackagePath": "staticwebassets/img/13.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/2.png",
+      "PackagePath": "staticwebassets/img/2.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/9.png",
+      "PackagePath": "staticwebassets/img/9.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/achives.jpg",
+      "PackagePath": "staticwebassets/img/achives.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/banner.png",
+      "PackagePath": "staticwebassets/img/banner.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/footer_logo.svg",
+      "PackagePath": "staticwebassets/img/footer_logo.svg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/logo.svg",
+      "PackagePath": "staticwebassets/img/logo.svg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/numbers-bg.png",
+      "PackagePath": "staticwebassets/img/numbers-bg.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/p1.png",
+      "PackagePath": "staticwebassets/img/p1.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/p2.png",
+      "PackagePath": "staticwebassets/img/p2.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/p3.png",
+      "PackagePath": "staticwebassets/img/p3.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/img/plan.png",
+      "PackagePath": "staticwebassets/img/plan.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/js/galleria.folio.js",
+      "PackagePath": "staticwebassets/js/galleria.folio.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/js/galleria.js",
+      "PackagePath": "staticwebassets/js/galleria.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation-unobtrusive/.bower.json",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/.bower.json"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation/.bower.json",
+      "PackagePath": "staticwebassets/lib/jquery-validation/.bower.json"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery/.bower.json",
+      "PackagePath": "staticwebassets/lib/jquery/.bower.json"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/HouseBack/HouseBack/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.HouseBack.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.HouseBack.props",
+      "PackagePath": "build\\HouseBack.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.HouseBack.props",
+      "PackagePath": "buildMultiTargeting\\HouseBack.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.HouseBack.props",
+      "PackagePath": "buildTransitive\\HouseBack.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
